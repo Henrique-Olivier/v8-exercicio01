@@ -54,12 +54,11 @@ header ul li {
 .container {
     height: 90vh;
     width: 100vw;
-    display: grid;
-    grid-template-columns: 75% 25%;
+    display: flex;
 }
 
 .principal {
-    width: 100%;
+    width: 75vw;
     height: 100%;
 }
 
@@ -89,15 +88,14 @@ header ul li {
 .indicadores_inferiores {
     width: 100%;
     height: 65vh;
-    display: grid;
-    grid-template-columns: 35% 65%;
+    display: flex;
 }
 
 .indicador2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 35%;
     height: 100%;
 } 
 
@@ -159,7 +157,7 @@ header ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 65%;
     height: 100%;
 }
 
@@ -203,7 +201,7 @@ justify-content: space-around;
 }
 
 .sideBar {
-    width: 100%;
+    width: 25vw;
     height: 100%;
     background-color: var(--cinza);
     text-align: center;
